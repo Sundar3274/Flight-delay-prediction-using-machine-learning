@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.content {
+    padding: 10px;
+    display: block;
+}
+.content-head {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+}
+.button {
+    background-color: #1C55A2;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #0E0E0F;
+    border-width: 1.5px;
+}
+.button a {
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+#feedback-button {
+    margin-top: 10px;
+}
+#feedback-button-section {
+    text-align: center;
+}
+#bgimg {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    opacity: 0.9;
+}
+.centered-head {
+    text-align: center;
+    color: #f7f322;
+    font-weight: bold;
+}
+.label-item {
+    color: #f4f6f8;
+    font-weight: bold;
+}
+.detail-container {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.text-input {
+    margin-top: 5px;
+    border-color: #1C55A2;
+    border-width: 1.5px;
+    width: 75%;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.select-input {
+    margin-top: 5px;
+    border-color: #0E0E0F;
+    border-width: 1.5px;
+    width: 40%;
+    height: 30px;
+    background-color: #1C55A2;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+#form-content {
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+#block1 {
+    display: block;
+    width: 40%;
+    padding: 20px;
+}
+#review {
+    height: 100px;
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#submit-button {
+    padding-left: 20px;
+
+}
+#submit {
+    background-color: #f3f023;
+    color: rgb(1, 7, 14);
+    font-weight: bold;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+.choose-item {
+    font-weight: 600;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+}
+
+.alert-text {
+    color: rgb(255, 79, 47);
+    font-size: small;
+    padding-left: 10px;
+    display: none;
+}
